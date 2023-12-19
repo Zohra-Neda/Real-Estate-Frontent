@@ -47,7 +47,9 @@ const HouseContextProvider = ({ children }) => {
 
 
   const handleClick = () => {
-    console.log('clicked');
+    console.log(country, property, price);
+
+    // create a function that checks if the string includes '(any)'
   }
 
   return (
